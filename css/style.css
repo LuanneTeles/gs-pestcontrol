@@ -7,7 +7,7 @@
 body{
     font-family:'Poppins',sans-serif;
     background:#f8fafc;
-    padding-top:90px;
+    margin:0;
 }
 
 header{
@@ -35,6 +35,12 @@ header{
     left:0;
 
     z-index:999;
+
+}
+
+main{
+
+    padding-top:90px;
 
 }
 
