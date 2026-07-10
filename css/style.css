@@ -246,6 +246,9 @@ nav a:hover::after{
     font-weight:600;
 
     transition:.3s;
+
+    box-shadow:0 10px 20px rgba(0,88,163,.15);
+
 }
 
 .btn-secondary:hover{
@@ -255,6 +258,8 @@ nav a:hover::after{
     color:white;
 
     box-shadow:0 12px 25px rgba(0,88,163,.25);
+
+    transform:translateY(-4px);
 
 }
 
