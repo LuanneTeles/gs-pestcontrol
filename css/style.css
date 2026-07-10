@@ -28,7 +28,7 @@ header{
 
     box-shadow:0 8px 30px rgba(0,0,0,.05);
 
-    position:fixed;
+    position:sticky;
 
     top:0;
 
@@ -140,7 +140,7 @@ nav a:hover::after{
 =========================== */
 
 #hero{
-    min-height: calc(100vh - 90px);
+    min-height:100vh;
     padding: 0 8%;
 
     display:flex;
