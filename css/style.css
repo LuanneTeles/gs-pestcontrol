@@ -458,3 +458,125 @@ nav a:hover::after{
     color:white;
 
 }
+
+.dropdown{
+
+    position:relative;
+
+}
+
+.dropbtn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    text-decoration:none;
+
+    color:#444;
+
+    font-weight:500;
+
+}
+
+.arrow{
+
+    font-size:12px;
+
+    transition:.3s;
+
+}
+
+.dropdown-content{
+
+    position:absolute;
+
+    top:48px;
+
+    left:-25px;
+
+    width:240px;
+
+    background:white;
+
+    border-radius:18px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.12);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(10px);
+
+    transition:.3s;
+
+    overflow:hidden;
+
+    padding:10px 0;
+
+}
+
+.dropdown-content a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:16px 22px;
+
+    color:#17324d;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.25s;
+
+}
+
+.dropdown-content a:hover{
+
+    background:#52B84D;
+
+    color:white;
+
+    padding-left:30px;
+
+}
+
+.dropdown:hover .dropdown-content{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.dropdown:hover .arrow{
+
+    transform:rotate(180deg);
+
+}
+
+.dropdown-content i{
+
+    width:20px;
+
+    color:#52B84D;
+
+    transition:.3s;
+
+}
+
+.dropdown-content a:hover i{
+
+    color:white;
+
+}
